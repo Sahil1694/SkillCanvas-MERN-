@@ -21,13 +21,13 @@ export const instance = new RazorPay({
 
 
 //will call fun every 1st day of month 
-nodeCron.schedule("0 0 0 5 * *", async () => {
-  try {
-    await Stats.create({});
-  } catch (error) {
-    console.log(error);
-  }
-});
+// nodeCron.schedule("0 0 0 5 * *", async () => {
+//   try {
+//     await Stats.create({});
+//   } catch (error) {
+//     console.log(error);
+//   }
+// });
 
 // const temp = async()=>{
 //   await Stats.create();
